@@ -1,1 +1,61 @@
-/*This is the external style sheet for the website*/
+/*needs to be in same folder as html script*/
+/*all of these set the default styles for the different tags in HTML, but they can be overridden by inline or internal stylesheets
+those stylesheets are located inside the HTML script */
+/* You can use one CSS script for mutiple HTML scripts */
+
+body {
+    /*background-color: blue;*/
+}
+
+p {
+    /*changes the color of the text */
+    /*color: white;*/
+    color: purple;
+    background-color: black;
+    /*makes two paragraph tags on the same line*/
+    /*display: inline;*/
+    /*makes the text dissapier, good for animations*/
+    /*display: none;*/
+    /* This tells the code which animation it will use */
+    animation-name: example;
+    /* This tells it how long the animation will be */
+    animation-duration: 5s;
+}
+
+#paragraph1:hover {
+    color: red;
+    background-color: blue;
+}
+
+#paragraph2 {
+    color: green;
+    background-color: yellow;
+}
+
+/*This will change the font size of anything that is under the <div class="row"> tag. This is a class selector the class row is being
+selected */
+.row {
+    font-size: 20px;
+}
+
+/* when the screen size is less than or equal to 768px, the styles will be activated */
+/* this acts like an exteral stylesheet, so it will not override the internal, or inline stylesheets */
+@media (max-width: 768px){
+    p{
+        font-size: 20px;
+        color: orange;
+        background-color: white;
+        text-decoration: underline;
+    }
+}
+
+/* This sets up an animation, this animation can be used in any of the other elements in this stylesheet */
+/* once this animation is done the cascading will continue, so this doesn't override any internal or inline stylesheets */
+@keyframes example {
+    from {background-color: royalblue;}
+    to {background-color: indigo;}
+}
+
+h1 {
+    margin-bottom: 50px;
+}
