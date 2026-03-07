@@ -7,6 +7,10 @@ body {
     /*background-color: blue;*/
 }
 
+h1 {
+    margin-bottom: 50px;
+}
+
 p {
     /*changes the color of the text */
     /*color: white;*/
@@ -59,8 +63,4 @@ selected */
 @keyframes example {
     from {background-color: royalblue;}
     to {background-color: indigo;}
-}
-
-h1 {
-    margin-bottom: 50px;
 }
