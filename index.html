@@ -1,8 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- link stylesheet underbootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- puts this in the tab -->
+        <title>Isaac Davidson</title>
+
+        <!-- this is an internal CSS stylesheet that will override what's on the CSS file -->
+        <!-- this one in particular is changing the color of the text and background when you hover over it -->
+
+        <!-- This was replaced by an id selector in the external stylesheet the id "paragraph1"-->
+        <!-- <style>
+            p:hover {
+                background-color: blue;
+                color: red;
+            }
+        </style> -->
+
     </head>
+
     <body>
-        <p>Test</p>
+        <div class="container">
+            <div class="row">
+            <h1>Word</h1>
+            </div>
+            <!-- h1 goes up to h6 -->
+            <!-- this is a break tag -->
+            <!-- <br> -->
+            <!-- <a href="URL"> this is link</a> -->
+            <!-- This is a comment -->
+            <div class="row">
+                
+                <!-- col-md-# all # needs to add to 12 -->
+                <div class="col-md-6">
+                <p id="paragraph1">
+                    hello world
+                </p>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- this makes the html script ignore the stylesheet and use this style instead -->
+                    <!-- the internal stylesheet above will not work on this paragraph because it has an inline style, which overrides -->
+                    <!-- internal and external stylesheets -->
+
+                    <!-- This was an old inline stylesheet that was replaced by an external by using the id selector -->
+                    <!-- the id is paragraph2 -->
+                    <!-- <p style="color: green; background-color: yellow;"> -->
+                    <p id="paragraph2">
+                        this is another thing that makes a paragraph
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <table> 
+                        <!-- tr stands for table row, td stand for table data, and th stands for table header -->
+                        <tr><th>Days of the Week</th></tr>
+                        <tr><td>Monday</td></tr>
+                        <tr><td>Tuesday</td></tr>
+                        <tr><td>Wednesday</td></tr>
+                        <tr><td>Thursday</td></tr>
+                        <tr><td>Friday</td></tr>
+                        <tr><td>Saturday</td></tr>
+                        <tr><td>Sunday</td></tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <ol>
+                        <li>Hate</li>
+                        <li>Love</li>
+                        <li>Joy</li>
+                        <li>Hope</li>
+                        <li>Despair</li>
+                    </ol>
+                </div>
+                <div class="col-md-4">
+                    <!-- this makes the html script ignore the stylesheet and use this style instead -->
+                    <ul style="background-color: red; color: blue;">
+                        <li>Try</li>
+                        <li>Attempt</li>
+                        <li>Poder</li>
+                        <li>Can</li>
+                        <li>Able to</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.IzO_82YXrUAfntTml_7JQwHaLH%3Fpid%3DApi&f=1&ipt=8bbfdcdb002fa89ff977c5157c5ed8ca6993eae3c563dead562586b4d85e474a&ipo=images" class = "img-fluid"/>
+                
+                    <!-- can also add references from file explorer -->
+                </div>
+                <div class = "col-md-4">
+                    <table class="table">
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                        </tr>
+                        <tr>
+                            <td>Google</td>
+                            <td>Jordan Wallen</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>James Goodall</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- responsive makes the table scrollable when the screen cuts off the table -->
+                <div class="table-responsive col-md-4">
+                    <!-- the class table adds lines to the table -->
+                    <table class="table">
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                            <th>State</th>
+                            <th>City</th>
+                        </tr>
+                        <tr>
+                            <td>Google</td>
+                            <td>Jordan Wallen</td>
+                            <td>USA</td>
+                            <td>California</td>
+                            <td>San Francisco</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>James Goodall</td>
+                            <td>USA</td>
+                            <td>California</td>
+                            <td>Cupertino</td>
+                        </tr>
+                        <tr>
+                            <td>Microsoft</td>
+                            <td>Isaac Davidson</td>
+                            <td>USA</td>
+                            <td>Washington</td>
+                            <td>Redmond</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
     </body>
+
 </html>
