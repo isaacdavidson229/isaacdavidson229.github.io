@@ -14,12 +14,17 @@ p {
     background-color: black;
     /*makes two paragraph tags on the same line*/
     /*display: inline;*/
-    /*makes the text dissapier, good for animations*/
+    /*makes the text disappear, good for animations*/
     /*display: none;*/
     /* This tells the code which animation it will use */
     animation-name: example;
     /* This tells it how long the animation will be */
     animation-duration: 5s;
+}
+
+ul {
+    background-color:red;
+    color:blue;
 }
 
 #paragraph1:hover {
