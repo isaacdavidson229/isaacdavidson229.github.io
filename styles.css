@@ -4,11 +4,11 @@ those stylesheets are located inside the HTML script */
 /* You can use one CSS script for mutiple HTML scripts */
 
 body {
-    /*background-color: blue;*/
+    background-color: #172159;
 }
 
 h1 {
-    margin-bottom: 50px;
+    color: #60CCD9;
 }
 
 p {
@@ -26,25 +26,28 @@ p {
     animation-duration: 5s;
 }
 
-ul {
-    background-color:red;
-    color:blue;
+
+#profile-img {
+    width: 50%;
+    margin-top: 40px;
 }
 
-#paragraph1:hover {
-    color: red;
-    background-color: blue;
-}
-
-#paragraph2 {
-    color: green;
-    background-color: yellow;
+#name-margin {
+    color: #C84965;
+    margin-top: 40px;
+    size: 100px;
 }
 
 /*This will change the font size of anything that is under the <div class="row"> tag. This is a class selector the class row is being
 selected */
 .row {
-    font-size: 20px;
+    /* font-size: 20px; */
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* when the screen size is less than or equal to 768px, the styles will be activated */
