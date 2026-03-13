@@ -16,6 +16,19 @@ p {
     color: #60CCD9;
 }
 
+a {
+    text-decoration: none;
+}
+
+i {
+    color: #60CCD9;
+    font-size: 30px;
+}
+
+table {
+    color: #44BCC1;
+}
+
 footer {
     font-size: 20px;
 }
@@ -31,9 +44,4 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.ribbon {
-    width: 60px;
-    background-color: #C84965;
 }
