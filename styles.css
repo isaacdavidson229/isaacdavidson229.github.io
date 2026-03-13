@@ -21,16 +21,19 @@ p {
 }
 
 a {
-    text-decoration: none;
-}
-
-i {
     color: #60CCD9;
-    font-size: 30px;
 }
 
-table {
+a:link {
+    color: #60CCD9;
+}
+
+a:hover {
     color: #44BCC1;
+}
+
+a:visited {
+    color: #C84965;
 }
 
 footer {
@@ -41,6 +44,16 @@ footer {
 #profile-img {
     width: 75%;
     margin-top: 40px;
+}
+
+#project-img {
+    width: 50%;
+}
+
+#icon {
+    color: #44BCC1;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 
