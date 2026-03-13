@@ -18,6 +18,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
 p {
     color: #60CCD9;
 }
