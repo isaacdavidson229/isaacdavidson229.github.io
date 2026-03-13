@@ -15,3 +15,42 @@
         <title>Isaac Davidson</title>
 
     </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="profile-img" src="Assets/HeadShot.jpg" alt="Communicate" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="text-center">Communicate</h1>
+
+                    <p>
+                        Welcome to my portfolio! I am an aspiring music composer/game designer, and am currently pursuing a degree
+                        in music composition, and Games, Interactive media, and Mobile technology at Boise State University.
+                        I want to demonstrate my skills in music composiiton for games as well as my
+                        knowlege of game engines and coding within them.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <footer>
+                <div class="row">
+                    <div class="col-md-12">
+                         <p>
+                        Contact me at:
+                        </p>
+                            <a href="mailto:isaacdavidson229@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/isaacdavidsoncomposer" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
