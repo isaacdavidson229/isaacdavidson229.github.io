@@ -14,6 +14,8 @@ h1 {
 
 h2 {
     color: #60CCD9;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -50,8 +52,17 @@ footer {
     margin-top: 40px;
 }
 
-#project-img {
+#Knight {
+    width: 95%;
+}
+
+#Light {
     width: 50%;
+}
+
+#Music {
+    color: #3B6AD9;
+    font-size: 70px;
 }
 
 #icon {
