@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <!-- link stylesheet underbootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
@@ -12,22 +13,40 @@
         
         <!-- puts this in the tab -->
         <title>Isaac Davidson</title>
-
-        <!-- this is an internal CSS stylesheet that will override what's on the CSS file -->
-        <!-- this one in particular is changing the color of the text and background when you hover over it -->
-
+        
     </head>
 
     <body>
+        <div class="ribbon"></div>
         <div class="container">
-            <div class="text-center">
-                <img id="profile-img" src="Assets/Fountain.png" alt="Isaac Davidson" class="img-fluid rounded">
-                <h1 class="text-center">Isaac Davidson</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="profile-img" src="Assets/HeadShot.jpg" alt="Isaac Davidson" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="text-center">Isaac Davidson</h1>
+
+                        <p>
+                            Welcome to my portfolio! I am an aspiring music composer/game designer, and am currently pursuing a degree
+                            in music composition, and Games, Interactive media, and Mobile technology at Boise State University.
+                            I want to demonstrate my skills in music composiiton for games as well as my
+                            knowlege of game engines and coding within them.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                        Contact me at:
+                        </p>
+                        <a href="mailto:isaacdavidson229@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             
         </div>
-        <!-- figure out how to change the size of the hr tag -->
-        <hr id="name-margin">
     </body>
 
 </html>
