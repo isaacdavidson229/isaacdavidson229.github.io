@@ -29,6 +29,10 @@ p {
     color: #60CCD9;
 }
 
+audio {
+    margin-top: 20px;
+}
+
 a {
     color: #60CCD9;
 }
