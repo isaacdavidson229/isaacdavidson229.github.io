@@ -20,17 +20,45 @@
         <h3><a href="index.html">Home</a></h3>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <img id="profile-img" src="Assets/AKnightAtTheMagiciansManor.png" alt="A Knight at the Magician's Manor" class="img-fluid rounded">
-                </div>
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <h1 class="text-center">A Kight at the Magician's Manor</h1>
-
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="smaller-img" src="Assets/KnightCards.png" alt="AR Cards" class="img-fluid">
                     <p>
-                        Welcome to my portfolio! I am an aspiring music composer/game designer, and am currently pursuing a degree
-                        in music composition, and Games, Interactive media, and Mobile technology at Boise State University.
-                        I want to demonstrate my skills in music composiiton for games as well as my
-                        knowlege of game engines and coding within them.
+                        This is an Augmented Reality game that I, along with a team of 3 other students, created for one of our classes. 
+                        This game uses custom made cards that are scaned by the computer camera to trigger different effects in the game. 
+                        In order to make this work I had to encorporate Vuforia, an image recognition software, into the Unity game.
+                        This allowed me to learn about how Unity can interact with outside software, and helped improve my knowledge of 
+                        C# code.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img id="smaller-img" src="Assets/KnightSword.png" alt="Knight with sword" class="img-fluid">
+                    <p>
+                        The cards did a variety of things. One of which gave the player a sword as a weapon.
+                        I created the sword script inside of unity, which activated the sword hitbox when the player hit the attack button.
+                        A different card was called the "Chaos Card". This card was a random chance card where it would give the player a random effect
+                        depending on which effect was selected in the random script.
+                        There is even a .6% chance that when the card is scanned that a new enemy will constantly hunt down the player.
+                        Through the proccess of writing this script I was able to understand how to use the Math.random function, 
+                        and allowed me to practice writing more complex scripts that require get and set methods in order to function 
+                        properly without changing the main script.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <audio controls>
+                        <source src="Assets/Music/A Night at the Manor.wav" type="audio/wav">
+                        Your browser doesn't support the audio element.
+                    </audio>
+                    <p>
+                        I also got to work on the music for this game. I wrote the music in a software called Famitracker. This 
+                        software emulates the original limitations of the NES and SNES sound cards.
+                        I decided to use this because the art style of the game was pixel based, so I wanted to mimic that simplicity 
+                        with the music as well. I also decided to write the music in a minor key in order to give the atmosphere of the 
+                        mansion as one of impending doom.
                     </p>
                 </div>
             </div>

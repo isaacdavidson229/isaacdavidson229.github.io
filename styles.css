@@ -10,6 +10,7 @@ body {
 h1 {
     color: #60CCD9;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -56,6 +57,10 @@ footer {
 #profile-img {
     width: 75%;
     margin-top: 40px;
+}
+
+#smaller-img {
+    width: 75%;
 }
 
 #Knight {
