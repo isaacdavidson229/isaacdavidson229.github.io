@@ -4,8 +4,7 @@ those stylesheets are located inside the HTML script */
 /* You can use one CSS script for mutiple HTML scripts */
 
 body {
-    /* background-color: #172159; */
-    background-color: cyan;
+    background-color: #172159;
 }
 
 h1 {
@@ -27,7 +26,8 @@ h3 {
 }
 
 p {
-    color: #60CCD9;
+    /* color: #60CCD9; */
+    color: red;
 }
 
 audio {
